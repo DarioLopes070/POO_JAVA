@@ -1,6 +1,8 @@
+import Animais.Animal;
 import Animais.Cachorro;
 import Animais.Gato;
 import Animais.Passaro;
+import Lojas.Petshop;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,15 +37,19 @@ public class Main {
 //        System.out.println(cachorro2.toString());
 //        System.out.println(cachorro3.toString());
 
-        Gato gato1 = new Gato("Felix", "Cinza", 0.8, 5);
-        Passaro passaro1 = new Passaro("Rex", "Azul", 1.2, 4);
-
-        cachorro1.soar();
-        gato1.soar();
-        passaro1.soar();
+//        Gato gato1 = new Gato("Felix", "Cinza", 0.8, 5);
+//        Passaro passaro1 = new Passaro("Rex", "Azul", 1.2, 4);
 
 
 
+
+//        Petshop petshop1 = new Petshop();
+//        petshop1.darBanho(cachorro1);
+//        System.out.println(cachorro1.getEstadoDeEspirito());
+//        petshop1.darBanho(gato1);
+//        System.out.println(gato1.getEstadoDeEspirito());
+//        petshop1.tosar(cachorro1);
+//        System.out.println(cachorro1.getEstadoDeEspirito());
 
 
 
@@ -64,5 +70,12 @@ public class Main {
         //float
         //double
 
+        Gato gato1 = new Gato("Felix", "Cinza", 0.8, 5);
+        Animal gato2 = new Gato("Felix", "Cinza", 0.8, 5);
+        Animal passaro1 = new Passaro("Felix", "Cinza", 0.8, 5);
+
+//        cachorro1.soar();
+//        gato1.soar();
+//        passaro1.soar();
     }
 }

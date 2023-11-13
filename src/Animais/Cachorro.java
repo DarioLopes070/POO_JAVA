@@ -39,11 +39,11 @@ public class Cachorro extends Animal{
     public String getNome(){
         return this.nome;
     }
-    public String setNome(String nome){
+    public void setNome(String nome){
 //        if(nome.equals("lily")){
 //            this.nome = null;
 //        }
-        return this.nome = nome;
+        this.nome = nome;
     }
 
     public String getCor() {
