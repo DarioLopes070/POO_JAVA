@@ -74,8 +74,8 @@ public class Main {
         Animal gato2 = new Gato("Felix", "Cinza", 0.8, 5);
         Animal passaro1 = new Passaro("Felix", "Cinza", 0.8, 5);
 
-//        cachorro1.soar();
-//        gato1.soar();
-//        passaro1.soar();
+        /*cachorro1.soar();
+        gato1.soar();
+        passaro1.soar();*/
     }
 }
